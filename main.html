@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+  
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css" >
+
+        <title>Temperature Converter</title>
+    </head>
+
+    <body>        
+        <div class="green-border">
+        <h1 style="color:navy">Temperatur Converter</h1>        
+            <h4 style="color:navy">Please Enter A Temperature</h4>
+            <input id="temp" type="number">
+        </div>
+        <div class= "green-border">
+              <br>
+            <h4 style="color:navy">Please Select The Scale</h4>
+              <br>
+            <input name="scale" type="radio" value="celsius">
+                <label>Celsius</label> 
+                  <br>
+                <br>
+            <input name="scale" type ="radio" value="fahrenheit">
+                <label>Fahrenheit</label>
+                  <br>
+                <br>  
+            <input name="scale" type ="radio" value="kelvin">
+                <label>Kelvin</label>
+                  <br>
+            <br>
+            <button id="convert">Convert</button>
+        </div> 
+
+        
+          <div class= "green-border" >  
+            <b style="color:navy">Results</b>
+            <div id="output"></div>
+            <div id="cel"></div>
+            <div id="fahr"></div>
+            <div id="kel"></div>
+          </div>
+        <script type="text/javascript" src="main.js"></script>
+    
+        <p>10/16/2016 Free in as speech/Free in as beer</p>
+    </body>
+
+</html>
